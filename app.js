@@ -5,7 +5,7 @@ const PORT = 3000;
 
 app.get("/", (req, res) => {
     res.send(`
-        <h1>Hello from Jenkins!</h1>
+        <h1>Hello, World!</h1>
         <p>This application was deployed using Docker.</p>
     `);
 });
